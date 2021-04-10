@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+html {
+    background-image: url('../src/assets/solidBackground.jpg');
+    background-color: #171717;
+}
+
+div{
+    text-align: center;
+    font-style: italic;
+    
+}
+div.content {
+    background-color: #FFCD00;
+    height: 180px;
+    border-radius: 20%;
+    justify-content: center;
+    width: 300px;
+    max-width: 1180px;
+    padding: 0 30px;
+    margin: 32px auto;
+    
+}
+div.title {
+    font-size: 20px;
+    font-style: bold;
+}
+div.start{
+    font-size: 15px;
+}
+div.end{
+    font-size: 15px;
+}
+img{
+    height: 80px;
+}
+
