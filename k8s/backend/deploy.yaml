@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nest-api
+  name: backend
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: nest-api
+      app: backend
   template:
     metadata:
       labels:
-        app: nest-api
+        app: backend
     spec:
       containers:
-        - name: nest-api
+        - name: backend
           image: marcomrj/imersao-fsfc2-backend
           ports:
             - containerPort: 3000
